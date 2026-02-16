@@ -1,2 +1,2 @@
-MODEL = "claude-haiku-4-5"
+MODEL = "claude-sonnet-4-5-20250929"
 TEMPERATURE = 1.0

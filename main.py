@@ -6,7 +6,7 @@ from langchain.chat_models import init_chat_model
 from src import config
 from src.system_prompt import SYSTEM_PROMPT
 from src.tools.file_operations import list_directory, read_markdown_file, write_markdown_file
-from src.tools.utilities import change_model_to_sonnet, get_current_date
+from src.tools.utilities import get_current_date
 
 load_dotenv()
 
@@ -23,7 +23,6 @@ def create_swiftly():
             write_markdown_file,
             list_directory,
             get_current_date,
-            change_model_to_sonnet,
         ],
         system_prompt=SYSTEM_PROMPT,
     )
